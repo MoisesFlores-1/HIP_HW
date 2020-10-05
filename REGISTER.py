@@ -19,7 +19,8 @@ def calculateCountyTax(price):
     #Once again this is where tax is calculated with the cost of items
 input("Is Sales Tax Applicable? Y/N :" )
 #User is asked if sales tax is applicable. 
-#I am having trouble with the "if" statements because when the user inputs "N" the program does not run the section for a taxless price.
+#I am having trouble with the "if" statements because when the user inputs 
+#"N" the program does not run the section for a taxless price.
 if True:
   #if true is meant to represent if tax IS applicable
   print(" Your Final TAX Total is:", Final_Tax:float + price:float )
