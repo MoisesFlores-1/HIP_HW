@@ -13,7 +13,7 @@ result = result + total
 price = price //10 
 Final_Tax = float(price*sales_tax)
  #Here is where the final total plus the tax is calculated. 
- #However I believe this may be useless if the function below does the same thing
+ #However I believe this may be useless if the function below does the same thing.
 def calculateCountyTax(price):
     return price:float * sales_tax:float 
     #Once again this is where tax is calculated with the cost of items
